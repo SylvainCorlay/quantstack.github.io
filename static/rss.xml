@@ -4,12 +4,39 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2026 06:36:55 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 11:54:34 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
+            <title><![CDATA[JupyterLite 0.8 is released! 🎉]]></title>
+            <description><![CDATA[The new 0.8 release includes a number of new features, bug fixes, and enhancements. Highlights include a shareable REPL, a refreshed loading screen, file system reliability improvements, a terminal in the browser, and an update to JupyterLab 4.6 and Notebook 7.6.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-0-8-is-released-0c89c4200f79</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-0-8-is-released-0c89c4200f79</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterLite-08.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+            <description><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2025 cohort of contributors.]]></description>
+            <link>https://blog.jupyter.org/congratulations-distinguished-contributors-1998f468b29e</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-1998f468b29e</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2026-06.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Improving SIMD in Apache Arrow: 80% faster Parquet column reads on ARM]]></title>
+            <description><![CDATA[We accelerated Parquet column reads on ARM by up to 80% in Apache Arrow C++, by adding support for the Scalable Vector Extension (SVE) and fixing a compiler optimization issue worth a 5x speedup on a dedicated routine.]]></description>
+            <link>https://medium.com/@AntoineProuvost/improving-simd-in-apache-arrow-80-faster-parquet-column-reads-on-arm-42150ac4ec21</link>
+            <guid isPermaLink="true">https://medium.com/@AntoineProuvost/improving-simd-in-apache-arrow-80-faster-parquet-column-reads-on-arm-42150ac4ec21</guid>
+            <dc:creator><![CDATA[Antoine Prouvost]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Accelerating-Arrow.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Async Xeus Python]]></title>
-            <description><![CDATA[We added top-level await support to xeus-python 🚀. You can now use toplevel async code directly in notebooks without extra boilerplate — and without blocking the kernel.]]></description>
+            <description><![CDATA[We added top-level await support to xeus-python 🚀. You can now use toplevel async code directly in notebooks without extra boilerplate and without blocking the kernel.]]></description>
             <link>https://notebook.link/@DerThorsten/async-xeus-python</link>
             <guid isPermaLink="true">https://notebook.link/@DerThorsten/async-xeus-python</guid>
             <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
@@ -159,33 +186,6 @@
             <dc:creator><![CDATA[Antoine Pitrou, Raúl Cumplido]]></dc:creator>
             <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/Arrow-a-Year-in-Review.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Create your own layers in JupyterGIS]]></title>
-            <description><![CDATA[JupyterGIS-tiler is a JupyterGIS extension that lets you use a notebook to process your (Xarray) data and make it available as raster tiles, so that it can be visualized in JupyterGIS.]]></description>
-            <link>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</link>
-            <guid isPermaLink="true">https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</guid>
-            <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
-            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Create-layers-JupyterGIS.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[C++ in Jupyter — Interpreting C++ in the Web]]></title>
-            <description><![CDATA[Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.]]></description>
-            <link>https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</link>
-            <guid isPermaLink="true">https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</guid>
-            <dc:creator><![CDATA[Anutosh Bhat, Vassil Vassilev]]></dc:creator>
-            <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
-            <enclosure url="https://quantstack.netimg/blogposts/resized-images/CPP-in-JupyterLite.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[JupyterLite 0.6.0 is released! 🎉]]></title>
-            <description><![CDATA[The new 0.6.0 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.]]></description>
-            <link>https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</link>
-            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</guid>
-            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Thu, 12 Jun 2025 00:00:00 GMT</pubDate>
-            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLite-06.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

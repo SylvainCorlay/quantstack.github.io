@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/jupyterlite-0-8-is-released-0c89c4200f79",
+        title: "JupyterLite 0.8 is released! 🎉",
+        image: "/img/blogposts/resized-images/JupyterLite-08.png",
+        summary: "The new 0.8 release includes a number of new features, bug fixes, and enhancements. Highlights include a shareable REPL, a refreshed loading screen, file system reliability improvements, a terminal in the browser, and an update to JupyterLab 4.6 and Notebook 7.6.",
+        date: "2026-07-10",
+        authors: "Jeremy Tuloup",
+        imageID: "blogpost-image-156"
+    },
+    {
         url: "https://blog.jupyter.org/congratulations-distinguished-contributors-1998f468b29e",
         title: "Congratulations, Distinguished Contributors!",
         image: "/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2026-06.png",
