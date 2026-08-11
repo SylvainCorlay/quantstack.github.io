@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/blog/numba-in-the-browser",
+        title: "Numba in the Browser: Unlocking a New Scientific Python Stack in JupyterLite",
+        image: "/img/blogposts/resized-images/Numba-Browser.png",
+        summary: "Today, we are excited to share the first working version of the Numba JIT compiler running entirely in the browser with JupyterLite and emscripten-forge!",
+        date: "2026-08-11",
+        authors: "Anutosh Bhat",
+        imageID: "blogpost-image-157"
+    },
+    {
         url: "https://blog.jupyter.org/jupyterlite-0-8-is-released-0c89c4200f79",
         title: "JupyterLite 0.8 is released! 🎉",
         image: "/img/blogposts/resized-images/JupyterLite-08.png",
