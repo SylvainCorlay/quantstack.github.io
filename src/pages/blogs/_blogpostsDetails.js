@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "/blogs/Decade-of-Open-Source",
+        title: "A Decade of Open Source at QuantStack",
+        image: "/img/blogposts/resized-images/Decade-QuantStack.png",
+        summary: "Ten years ago, I founded QuantStack on a conviction: that we could build a sustainable business by supporting world-class open-source software to advance science. It was a bold bet. We had no outside funding, no guarantees—just the belief that…",
+        date: "2026-08-17",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-158"
+    },
+    {
         url: "https://notebook.link/blog/numba-in-the-browser",
         title: "Numba in the Browser: Unlocking a New Scientific Python Stack in JupyterLite",
         image: "/img/blogposts/resized-images/Numba-Browser.png",
