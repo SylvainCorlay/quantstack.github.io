@@ -108,9 +108,9 @@ function applyDark(dark: boolean): void {
   const p = bgEl.querySelector<SVGGElement>("#_pbg_p");
   const g = bgEl.querySelector<SVGGElement>("#_pbg_g");
   const s = bgEl.querySelector<SVGGElement>("#_pbg_s");
-  if (p) p.setAttribute("opacity", dark ? "0.12" : "0.09");
-  if (g) g.setAttribute("opacity", dark ? "0.18" : "0.14");
-  if (s) s.setAttribute("opacity", dark ? "0.15" : "0.11");
+  if (p) p.setAttribute("opacity", dark ? "0.08" : "0.06");
+  if (g) g.setAttribute("opacity", dark ? "0.12" : "0.09");
+  if (s) s.setAttribute("opacity", dark ? "0.10" : "0.08");
 }
 
 // ─── Scroll-based dark detection ──────────────────────────────────────────────
