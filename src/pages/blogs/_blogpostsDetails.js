@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/a-robotics-workbench-for-jupytercad-6eb498a22178",
+        title: "A Robotics Workbench for JupyterCAD",
+        image: "/img/blogposts/resized-images/Robotics-Workbench.png",
+        summary: "By leveraging JupyterCAD and JupyterLite, the entire toolchain from parametric CAD design to kinematic description is delivered as instant, zero-install workspace in the browser.",
+        date: "2026-09-02",
+        authors: "Yahia Heni",
+        imageID: "blogpost-image-159"
+    },
+    {
         url: "/blogs/Decade-of-Open-Source",
         title: "A Decade of Open Source at QuantStack",
         image: "/img/blogposts/resized-images/Decade-QuantStack.png",
